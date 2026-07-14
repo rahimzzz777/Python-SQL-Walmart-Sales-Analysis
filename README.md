@@ -2,17 +2,13 @@
 
 ## Project Overview
 
-This project focuses on analyzing Walmart retail sales data to uncover meaningful business insights using **Python** and **SQL**. The workflow begins with cleaning and preparing raw sales data in Python, followed by SQL-based business analysis to answer real-world business questions related to customer behavior, branch performance, product categories, payment methods, and revenue trends.
-
-The project demonstrates an end-to-end data analytics workflow, transforming raw transactional data into actionable business insights that support data-driven decision-making.
+This project analyzes Walmart retail sales data to uncover meaningful business insights using **Python** and **PostgreSQL**. The workflow begins with cleaning and preprocessing raw sales data in Python, followed by SQL-based analysis to answer real-world business questions related to customer purchasing behavior, branch performance, product categories, payment preferences, sales trends, and revenue performance.
 
 ---
 
 ## Business Problem
 
-Retail organizations generate thousands of sales transactions daily. Without proper analysis, it is difficult to identify sales trends, customer preferences, branch performance, and product profitability.
-
-This project aims to answer key business questions that help management make informed decisions regarding inventory planning, customer experience, payment preferences, staffing, and revenue growth.
+Retail businesses generate thousands of transactions every day, making it difficult to identify meaningful sales patterns and customer behavior through manual analysis. This project aims to transform raw transactional data into actionable business insights that help improve operational efficiency, customer satisfaction, and business performance.
 
 ---
 
@@ -20,12 +16,12 @@ This project aims to answer key business questions that help management make inf
 
 - Clean and preprocess raw sales data.
 - Improve data quality for accurate analysis.
-- Perform SQL-based business analysis.
-- Understand customer purchasing behavior.
+- Analyze customer purchasing behavior.
 - Evaluate branch performance.
-- Analyze product category performance.
-- Compare revenue trends.
-- Generate actionable business insights.
+- Identify high-performing product categories.
+- Analyze customer payment preferences.
+- Compare revenue performance over time.
+- Generate data-driven business insights.
 
 ---
 
@@ -78,7 +74,7 @@ Business Insights
 
 ## Data Preparation
 
-The dataset was cleaned and prepared before analysis to improve data quality and ensure accurate business insights.
+The dataset was cleaned and prepared before analysis to ensure data quality and improve the accuracy of business insights.
 
 The following preprocessing steps were performed:
 
@@ -86,8 +82,8 @@ The following preprocessing steps were performed:
 - Handled missing values
 - Standardized column names
 - Corrected data types
-- Created additional calculated columns
-- Validated the dataset
+- Created calculated columns
+- Validated the cleaned dataset
 - Exported the cleaned dataset for SQL analysis
 
 ---
@@ -106,10 +102,10 @@ This project answers the following business questions:
 2. Which product category receives the highest average rating in each branch?
 3. Which day of the week is busiest for each branch?
 4. Which payment method is associated with the highest quantity of products sold?
-5. Which product categories receive the highest ratings in each city?
+5. Which product categories receive the highest customer ratings in each city?
 6. Which product categories generate the highest profit?
 7. Which payment method is most preferred in each branch?
-8. Which sales shift (Morning, Afternoon, Evening) generates the highest sales?
+8. Which sales shift (Morning, Afternoon, and Evening) generates the highest sales?
 9. How has revenue changed between 2022 and 2023?
 
 ---
@@ -122,76 +118,48 @@ This project answers the following business questions:
 
 ## Key Insights
 
-- Customer payment preferences vary across branches.
-- Product category performance differs between cities.
-- Customer ratings help identify high-performing product categories.
-- Sales activity varies across weekdays.
-- Product profitability differs among categories.
-- Customer purchasing behavior changes based on payment methods.
-- Sales shifts reveal peak shopping hours.
-- Revenue comparison highlights business growth trends.
+- Identified customer payment preferences across different branches.
+- Evaluated branch performance based on customer ratings and sales activity.
+- Compared product category performance across multiple cities.
+- Determined the busiest shopping days for each branch.
+- Identified product categories generating the highest profit.
+- Analyzed customer purchasing behavior using payment methods.
+- Evaluated sales performance across different time shifts.
+- Compared revenue trends between different years.
 
 ---
 
 ## Business Value
 
-The insights generated from this project help businesses:
+The insights generated from this project can help businesses:
 
-- Understand customer purchasing behavior.
 - Improve inventory planning.
-- Evaluate branch performance.
-- Identify profitable product categories.
-- Optimize staff allocation during peak hours.
+- Optimize branch performance.
+- Enhance customer experience.
+- Identify high-performing product categories.
+- Allocate staff efficiently during peak business hours.
 - Improve payment service availability.
 - Monitor revenue performance.
-- Support strategic business decision-making.
-
----
-
-## Repository Structure
-
-```text
-Python-SQL-Walmart-Sales-Analysis/
-│
-├── data/
-│   ├── Walmart.csv
-│   └── walmart_clean_data.csv
-│
-├── notebook/
-│   └── walmart.ipynb
-│
-├── sql/
-│   └── walmart.sql
-│
-├── images/
-│   ├── project_workflow.png
-│   ├── python_data_cleaning.png
-│   └── sql_analysis.png
-│
-└── README.md
-```
+- Support data-driven business decision-making.
 
 ---
 
 ## Skills Demonstrated
 
 ### Data Preparation
-
 - Data Cleaning
 - Data Validation
 - Data Transformation
 - Feature Engineering
 
 ### Data Analysis
-
 - SQL
-- Aggregation
+- Aggregations
 - Window Functions
 - Common Table Expressions (CTEs)
 - Business Analytics
 
-### Business Analysis
-
+### Business Intelligence
 - Customer Behavior Analysis
 - Branch Performance Analysis
 - Product Category Analysis
@@ -200,18 +168,8 @@ Python-SQL-Walmart-Sales-Analysis/
 
 ---
 
-## Future Improvements
-
-- Develop an interactive Power BI dashboard.
-- Perform customer segmentation.
-- Build sales forecasting models.
-- Analyze seasonal sales trends.
-- Implement inventory optimization techniques.
-
----
-
 ## Author
 
 **Abdul Rahim**
 
-Data Analyst | Python | SQL | Data Analytics
+Data Analyst | Python | SQL | PostgreSQL
